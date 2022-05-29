@@ -1,0 +1,17 @@
+body{
+    background: #f9f9f9;
+}
+.item-title{
+    font-size: 22px;
+}
+.badge-type{
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    background-color: #2ec4b6;
+    border-radius: 15px;
+}
