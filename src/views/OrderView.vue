@@ -1,5 +1,5 @@
 <template>
-<OrdersList :orders="allUserOrders||orders.Orders" :viewOrders="viewOrders"/>
+<OrdersList :orders="orders.Orders" :viewOrders="viewOrders"/>
 </template>
 
 <script>
