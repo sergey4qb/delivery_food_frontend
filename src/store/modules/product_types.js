@@ -2,7 +2,7 @@ import store from "@/store";
 import {HTTP} from "@/http-common";
 
 const state = {
-    urlAllProducts: "http://localhost:8080/GetAllProductsTypes/",
+    urlAllProducts: "GetAllProductsTypes/",
     urlProductsByTypeID: "",
     productTypes: [],
     errors: [],
@@ -15,7 +15,7 @@ const mutations = {
         state.productTypes = productTypes
     },
     setTypeUrl(state, urlProductsByTypeID) {
-        let url = `http://localhost:8080/GetAllProductsByTypeID/${urlProductsByTypeID}`
+        let url = `GetAllProductsByTypeID/${urlProductsByTypeID}`
         state.urlProductsByTypeID = url
     },
     setErrors(state, errors) {
